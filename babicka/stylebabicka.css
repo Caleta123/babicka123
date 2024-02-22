@@ -1,0 +1,43 @@
+p.proc {
+  background-color: blueviolet;
+  opacity: 0.9;
+}
+
+
+body { 
+  background: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3771.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  font-size: 120%;
+}
+
+* {
+  text-align: center;
+  font-family: Lucida Handwriting;
+}
+
+ul.centerlist {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside;
+}
+
+a:hover {
+  color: ghostwhite;
+}
+
+img.heart {
+  height: 300px;
+}
+
+.heart { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
